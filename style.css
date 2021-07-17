@@ -1,0 +1,123 @@
+*{
+    background-color: rgb(32, 31, 31);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.colors{
+    color: cornsilk;
+    width: 100vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.color{
+display: flex;
+align-items: center;
+cursor: pointer;
+/* box-sizing: border-box; */
+/* border: 1px solid green; */
+height: 30px;
+/* transition: all 3s; */
+border-bottom: 2px solid white;
+border-width: 0;
+user-select: none;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#reddot{background-color: red;}
+#greendot{background-color: green;}
+#yellowdot{background-color: yellow;}
+#bluedot{background-color: blue;}
+#purpledot{background-color: rgb(196, 0, 196);}
+#pinkdot{background-color: rgb(255, 0, 43);}
+
+.underline{
+    border-width: 2px;
+}
+.sword{
+    color: cornsilk;
+    width: 100vw;
+    height: 90vh;
+    /* border: 2px solid rgb(157, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+#blade{
+    background-color: white;
+    height: 30vh;
+    width: 10px;
+    border-radius: 10px 10px 0 0 ;
+    z-index: 11;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.red{ box-shadow: 0 0 1em 3px red;}
+.green{ box-shadow: 0 0 1em 3px green;}
+.yellow{ box-shadow: 0 0 1em 3px yellow;}
+.blue{ box-shadow: 0 0 1em 3px blue;}
+.purple{ box-shadow: 0 0 1em 3px rgb(196, 0, 196);}
+.pink{ box-shadow: 0 0 1em 3px rgb(255, 0, 43);}
+#handle{
+    cursor: pointer;
+}
+#handle1{
+    background-color: rgb(231, 114, 5);
+    height: 5px;
+    width: 10px;
+    box-sizing: border-box;
+}
+#handle2{
+    background-color: rgb(255, 255, 255);
+    height: 9px;
+    width: 10px;
+    box-sizing: border-box;
+    border-top: 5px solid black;
+    border-bottom: 2px solid black;
+}
+.handle3{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+#handle4{
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 10px;
+    box-sizing: border-box;
+    /* border-top: 5px solid black; */
+    border-bottom: 2px solid black;
+}
+#handle5{
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+    width: 10px;
+    box-sizing: border-box;
+    border-top: 3px solid black;
+    border-bottom: 17px solid rgb(255, 208, 0);
+}
+#handle6{
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+    width: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
